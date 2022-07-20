@@ -15,6 +15,8 @@ body {
     border-radius: 30px;
     margin-left: 120px;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .earth {
@@ -22,6 +24,7 @@ body {
     width: 400px;
     margin-top: 0px;
     margin-bottom: 60px;
+
 }
 
 .tex {
@@ -32,14 +35,17 @@ body {
 
 p {
     color: white;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .anchor-button {
     background: linear-gradient(indianred, red);
     text-decoration: none;
-    padding: 18px 35px;
+    padding: 16px 35px;
     border-radius: 10px;
     font-weight: 700;
     color: white;
+}
+.fa-greater-than{ 
+    margin-left: 8px;
 }
