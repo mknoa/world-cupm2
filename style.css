@@ -1,0 +1,45 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Ibarra+Real+Nova:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/* Common Style utilities */
+body {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/* Top Banner Style */
+.top-banner {
+    background-color: black;
+    height: 400px;
+    width: 940px;
+    padding: 90px;
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.earth {
+    height: 500px;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.tex {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.anchor-button {
+    background: linear-gradient(indianred, red);
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
