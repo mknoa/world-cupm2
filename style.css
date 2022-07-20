@@ -9,9 +9,9 @@ body {
 /* Top Banner Style */
 .top-banner {
     background-color: black;
-    height: 400px;
-    width: 940px;
-    padding: 90px;
+    height: 300px;
+    width: 700px;
+    padding: 60px;
     border-radius: 30px;
     margin-left: 120px;
     margin-top: 40px;
@@ -20,22 +20,25 @@ body {
 }
 
 .earth {
-    height: 500px;
-    width: 400px;
-    margin-top: 0px;
-    margin-bottom: 60px;
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 
 }
 
 .tex {
     color: white;
-    font-weight: 700;
-    font-size: 50px;
-}
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 7px;
+    text-align:justify;
 
+}
 p {
     color: white;
     font-size: 13px;
+    margin-top: 15px;
 }
 
 .anchor-button {
@@ -48,4 +51,58 @@ p {
 }
 .fa-greater-than{ 
     margin-left: 8px;
+}
+.photo{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    zoom: 122%;
+}
+.up-body{
+    margin-top: 90px;
+}
+.anchor{
+    background-color:black;
+    height: 220px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+.anchor-button-1{
+    background:white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:black;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.anchor-button-2{
+    background: whitesmoke;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.anchor-button-3{
+    background: linear-gradient(indianred, red);
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: center;
 }
