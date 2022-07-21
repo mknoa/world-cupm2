@@ -116,3 +116,47 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+.up-body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.lo-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+
+
+}
+
+.player {
+    width: 220px;
+    height: 240px;
+    background-color: aliceblue;
+    border: 2px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.banner img {
+    width: 220px;
+    height: 110px;
+}
+
+.info {
+    color: black;
+}
+
+.anchor-button-4 {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: black;
+    border: 1px;
+}
