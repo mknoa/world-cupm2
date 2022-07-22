@@ -42,6 +42,9 @@ p {
     margin-top: 15px;
 }
 
+/*......................... 
+Top-body Style 
+....................................*/
 .anchor-button {
     background: linear-gradient(indianred, red);
     text-decoration: none;
@@ -152,7 +155,7 @@ p {
 
 .banner img {
     width: 268px;
-    height: 110px;
+    height: 120px;
 }
 
 .info {
@@ -166,4 +169,52 @@ p {
     border-radius: 10px;
     color: black;
     border: 2px
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+.chat {
+    margin-left: 50px;
+}
+
+/*.................. 
+Bottom Style 
+.........................*/
+.end {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+
+.go {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    width: 100% height: 60Px;
+    text-align: center;
+}
+
+.cont {
+    color: darkgrey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ad {
+    margin: 30px;
 }
