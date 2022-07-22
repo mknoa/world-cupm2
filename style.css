@@ -1,6 +1,10 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Ibarra+Real+Nova:wght@700&family=Roboto:wght@400;500&display=swap');
 
+/*------------------------ 
+style media quaiery 
+-------------------------------*/
+
 /* Common Style utilities */
 body {
     font-family: 'Ibarra Real Nova', serif;
@@ -55,7 +59,6 @@ p {
 .fa-greater-than {
     margin-left: 8px;
 }
-
 
 /*......................... 
 Top-body Style 
@@ -197,7 +200,6 @@ Bottom Style
     flex-direction: column;
     margin-top: 100px;
 
-
 }
 
 .go {
@@ -222,6 +224,22 @@ Bottom Style
     margin: 30px;
 }
 
-/*------------------------ 
-style media quaiery 
--------------------------------*/
+.anchor-button:hover {
+    animation-name: font-anim;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes font-anim {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: blueviolet;
+    }
+
+    100% {
+        color: blue;
+    }
+}
