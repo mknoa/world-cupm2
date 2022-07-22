@@ -78,7 +78,7 @@ p {
 .anchor-button-1 {
     background: white;
     text-decoration: none;
-    padding: 12px 28px;
+    padding: 14px 18px;
     border-radius: 10px;
     font-weight: 700;
     color: black;
@@ -113,26 +113,30 @@ p {
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .up-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
+    margin-left: 97px;
 }
 
 .lo-body {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    justify-content: start;
+    margin-left: 20px;
 
 }
 
 .player {
-    width: 220px;
+    width: 268px;
     height: 240px;
     background-color: aliceblue;
     border: 2px;
@@ -140,10 +144,14 @@ p {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner img {
-    width: 220px;
+    width: 268px;
     height: 110px;
 }
 
@@ -152,11 +160,10 @@ p {
 }
 
 .anchor-button-4 {
-    background-color: white;
+    border-color: black;
     text-decoration: none;
-    padding: 10px 22px;
+    padding: 7px 15px;
     border-radius: 10px;
-    font-weight: 500;
     color: black;
-    border: 1px;
+    border: 2px
 }
