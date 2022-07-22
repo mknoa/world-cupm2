@@ -1,0 +1,200 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Ibarra+Real+Nova:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/* Common Style utilities */
+body {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/* Top Banner Style */
+.top-banner {
+    background-color: black;
+    height: 400px;
+    width: 950px;
+    padding: 60px;
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.earth {
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.tex {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 7px;
+    text-align: justify;
+
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+/*......................... 
+Top-body Style 
+....................................*/
+.anchor-button {
+    background: linear-gradient(indianred, red);
+    text-decoration: none;
+    padding: 16px 35px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.fa-greater-than {
+    margin-left: 8px;
+}
+
+.photo {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    zoom: 153%;
+    margin-right: 0px;
+}
+
+.up-body {
+    margin-top: 90px;
+}
+
+.anchor {
+    background-color: black;
+    height: 220px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.anchor-button-1 {
+    background-color: #ff0000;
+    text-decoration: none;
+    padding: 14px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.anchor-button-2 {
+    background: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.anchor-button-3 {
+    background: whitesmoke;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.up-body {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 97px;
+}
+
+.lo-body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    justify-content: start;
+    margin-left: 20px;
+
+}
+
+.player {
+    width: 268px;
+    height: 240px;
+    background-color: aliceblue;
+    border: 2px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    color: black;
+}
+
+
+/*.................. 
+Bottom Style 
+.........................*/
+.end {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+
+.go {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    width: 100% height: 60Px;
+    text-align: center;
+}
+
+.cont {
+    color: darkgrey;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ad {
+    margin: 30px;
+}
