@@ -224,22 +224,28 @@ Bottom Style
     margin: 30px;
 }
 
+/*-------------------- 
+Animation Style
+---------------------------- */
 .anchor-button:hover {
-    animation-name: font-anim;
-    animation-duration: 5s;
+    animation-name: color-anim;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-@keyframes font-anim {
+@keyframes color-anim {
     0% {
+        background: linear-gradient(indianred, red);
         color: white;
     }
 
     50% {
-        color: blueviolet;
+        background: linear-gradient(orange, green);
+        color: blue;
     }
 
     100% {
-        color: blue;
+        background: linear-gradient(blue, violet);
+        color: red;
     }
 }
